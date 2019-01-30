@@ -5,4 +5,5 @@ function breakOut(array, changeValue, stopValue) {
       }
       array[counter] = changeValue
   }
+  return array
 }
