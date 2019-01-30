@@ -7,3 +7,13 @@ function breakOut(array, changeValue, stopValue) {
   }
   return array
 }
+
+function keepGoing(array, changeValue, skipValue) {
+  for (var counter = 0; counter< array.length; counter ++){
+      if (array[counter] === stopValue) {
+        continue
+      }
+      array[counter] = changeValue
+  }
+  return array
+}
